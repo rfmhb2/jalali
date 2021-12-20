@@ -5,7 +5,7 @@ import jalali.interfaces.*
 import jalali.lang.fa
 import java.time.LocalDateTime
 
-class Jalali : Accessor, Modification, Formatting, Difference, Comparison {
+class Jalali : Accessor, Modification, Formatting, Difference, Comparison, Boundaries {
     override var year: Int = 0
     override var month: Int = 0
     override var day: Int = 0
